@@ -85,7 +85,7 @@ body{
     object-fit: contain;
 }
 
-.bodegas__container{
+.gradient__color{
     height: 50vh;
     background: rgb(145,124,4);
     background: linear-gradient(90deg, rgba(145,124,4,1) 0%, rgba(209,180,11,1) 50%, rgba(145,124,4,1) 100%, rgba(0,0,0,1) 100%); 
