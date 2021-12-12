@@ -110,7 +110,6 @@ body{
 }
 
 .contacto__index-texto{
-    color: white;
     font-weight: 900;
     font-size: 20px;
 }
@@ -120,7 +119,6 @@ body{
 }
 
 .contacto__titulo{
-    color: white;
     font-weight: 900;
 }
 
@@ -164,7 +162,60 @@ body{
     z-index: 1500;
 }
 
+.gradient__color-2{
+    background: rgb(93,92,110);
+    background: linear-gradient(90deg, rgba(93,92,110,1) 0%, rgba(117,115,134,1) 50%, rgba(93,92,110,1) 100%, rgba(0,0,0,1) 100%); 
+}
 
+.active-link{
+    color:#ffdb0d;
+}
+
+/* =====BODEGAS HTML===== */
+
+.object-cover{
+    object-fit: cover;
+}
+
+/* =====EQUIPO=====*/
+
+.equipo__texto__principal{
+    top: 70%;
+    width: 75%;
+}
+
+/* =====CONTACTO HTML===== */
+
+.fp-14{
+    font-size: 14px;
+}
+
+
+.form-check-input:checked{
+    background-color: #ffdb0d;
+    border-color: #f7d30ace;
+
+}
+
+.form__container{
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: .5rem;
+}
+
+
+
+
+
+/* esconder barra scroll */
+.scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-bar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* esconder barra scroll */
 @media screen and (min-width:768px){
     .nav__bar__logo2{
         display: none;
