@@ -1,0 +1,3 @@
+Color Principal: #ffdb0d;
+Color Transparencias 1: rgba(0, 0, 0, 0.89);
+Color Transparencias 2: rgba(0, 0, 0, 0.658);
