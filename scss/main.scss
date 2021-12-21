@@ -771,15 +771,20 @@ html{
 //-----CONTACTO HTML-----
 
 .contacto__main__container{
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: red;
 
     .contacto__main__bg{
+        margin: 0;
+        padding: 0;
         position: absolute;
-        width: 100%;
+        width: 110%;
         height: 100%;
         object-fit: cover;
     }
@@ -800,12 +805,16 @@ html{
             height: 100%;
             font-family: $font-montserrat;
 
+            .contacto__main__checkbox{
+                width: 100%;
             .contacto__main__label-mod{
+                width: 100%;
                 font-weight: $font-weight-bold;
                 font-family: $font-montserrat;
                 color: $color-white;
                 padding-bottom: 0;
             }
+        }
 
             .contacto__main__label{
                 font-weight: $font-weight-bold;
@@ -817,11 +826,11 @@ html{
             }
 
             .contacto__main__buttonContainer{
-                background-color: red;
                 width: 100%;
                 display: flex;
                 justify-content: center;
 
+                
                 .contacto__main__button{
                     @extend %buttonLink;
                     
