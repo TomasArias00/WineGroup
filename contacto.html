@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO meta tags -->
     <meta name="description" content="Somos representantes oficiales en Córdoba de las mas importantes bodegas mendocinas">
     <meta name="keywords" content="vinos por mayor - vinos de boutique - vinos de mercado">
     <!-- fuentes -->
@@ -22,7 +23,6 @@
 <body>
 
     <!-- DESKTOP NAV BAR -->
-
     <div class="header__desk__container">
         <nav class="header__desk__nav">
             <a href="index.html" class="header__desk__logo__container"><img src="media/img/wg-logo.png" alt=""></a>
@@ -35,37 +35,36 @@
         </nav>
     </div>
 
-        <!-- MOBILE NAV BAR -->
-
-        <div class="header__mobile__container">
-            <div class="header__mobile__nav">
-                <div class="header__mobile__logo">
-                    <a href="index.html"><img src="media/img/wg-logo.png" alt=""></a>
-                    <span href="" onclick="openNav()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                        </svg>
-                    </span>
-                </div>
-            </div>
-        </div>
-    
-        <!-- OVERLAY MENU MOBILE -->
-    <div id="myNav" class="mobile__menu__container">
-            <div class="mobile__menu__items">
-                <span class="mobile__menu__closebtn" onclick="closeNav()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+    <!-- MOBILE NAV BAR -->
+    <div class="header__mobile__container">
+        <div class="header__mobile__nav">
+            <div class="header__mobile__logo">
+                <a href="index.html"><img src="media/img/wg-logo.png" alt=""></a>
+                <span href="" onclick="openNav()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                     </svg>
                 </span>
-                <ul class="mobile__menu__ul">
-                    <li class="mobile__menu__li"><a href="index.html">INICIO</a></li>
-                    <li class="mobile__menu__li"><a href="bodegas.html">BODEGAS</a></li>
-                    <li class="mobile__menu__li"><a href="equipo.html">EQUIPO</a></li>
-                    <li class="mobile__menu__li"><a href="contacto.html">CONTACTO</a></li>
-                </ul> 
             </div>
         </div>
+    </div>
+    
+    <!-- OVERLAY MENU MOBILE -->
+    <div id="myNav" class="mobile__menu__container">
+        <div class="mobile__menu__items">
+            <span class="mobile__menu__closebtn" onclick="closeNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </span>
+            <ul class="mobile__menu__ul">
+                <li class="mobile__menu__li"><a href="index.html">INICIO</a></li>
+                <li class="mobile__menu__li"><a href="bodegas.html">BODEGAS</a></li>
+                <li class="mobile__menu__li"><a href="equipo.html">EQUIPO</a></li>
+                <li class="mobile__menu__li"><a href="contacto.html">CONTACTO</a></li>
+            </ul> 
+        </div>
+    </div>
 
 
     <!-- MAIN SECTION -->
@@ -135,8 +134,8 @@
         </div>
 </footer>
 
-
-<script>
+    <!-- script activador "OVERLAY MOBILE MENU" -->
+    <script>
     function openNav() {
         document.getElementById("myNav").style.width = "100%";
     }
@@ -149,8 +148,8 @@
     </script>
 
 
-<!-- script BOOTSTRAP -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- script BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>

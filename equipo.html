@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO meta links -->
     <meta name="description" content="Contamos con un equipo de personas comprometidas con el proyecto para brindar un servicio de primera calidad">
     <meta name="keywords" content="distribuidores de vino - ventas por mayor de vino">
     <!-- fuentes -->
@@ -22,7 +23,6 @@
 <body>
 
     <!-- DESKTOP NAV BAR -->
-
     <div class="header__desk__container">
         <nav class="header__desk__nav">
             <a href="index.html" class="header__desk__logo__container"><img src="media/img/wg-logo.png" alt=""></a>
@@ -35,22 +35,21 @@
         </nav>
     </div>
 
-        <!-- MOBILE NAV BAR -->
-
-        <div class="header__mobile__container">
-            <div class="header__mobile__nav">
-                <div class="header__mobile__logo">
-                    <a href="index.html"><img src="media/img/wg-logo.png" alt=""></a>
-                    <span href="" onclick="openNav()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                        </svg>
-                    </span>
-                </div>
+    <!-- MOBILE NAV BAR -->
+    <div class="header__mobile__container">
+        <div class="header__mobile__nav">
+            <div class="header__mobile__logo">
+                <a href="index.html"><img src="media/img/wg-logo.png" alt=""></a>
+                <span href="" onclick="openNav()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </span>
             </div>
         </div>
+    </div>
     
-        <!-- OVERLAY MENU MOBILE -->
+    <!-- OVERLAY MENU MOBILE -->
     <div id="myNav" class="mobile__menu__container">
             <div class="mobile__menu__items">
                 <span class="mobile__menu__closebtn" onclick="closeNav()">
@@ -65,10 +64,9 @@
                     <li class="mobile__menu__li"><a href="contacto.html">CONTACTO</a></li>
                 </ul> 
             </div>
-        </div>
+    </div>
 
     <!-- MAIN SECTION -->
-
     <div class="equipo__main__container">
         <div class="row overflow-auto position-relative equipo__main__row">
             <div class="column col-xxl-3 col-xl-3 col-md-3 col-sm-6 col-xs-12 m-0 p-0 equipo__main__column">
@@ -125,17 +123,15 @@
         </div>
 </footer>
 
+    <!-- script activador "OVERLAY MOBILE MENU" -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
 
-<script>
-    function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-    }
-
-    function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-    }
-
-    
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
     </script>
 
 
