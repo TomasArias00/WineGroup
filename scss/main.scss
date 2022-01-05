@@ -781,18 +781,36 @@ html{
     height: 100%;
     display: flex;
     justify-content: center;
+    background-color: $color-principal;
+    box-shadow: 0px 0px 10px $color-transDark2;
 
     .equipo__texto__principal{
         font-family: $font-montserrat;
         font-weight: $font-weight-bold;
         color: $color-white;
         text-align: center;
-        width: 100%;
+        width: 80%;
         display: flex;
+        align-items: flex-end;
         flex-wrap: wrap;
         justify-content: center;
-        top: 70%;
+        position: relative;
+        top: 0%;
+        background-color: blue;
+        height: 25%;
+
+        .equipo__main__txt{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-color: red;
+            height: 60%;
+            font-size: 20px;
+            font-family: $font-weight-bold;
+            font-family: $font-montserrat;
+        }
     }
+
 
     .equipo__main__row{
         height: 100%;
@@ -819,8 +837,10 @@ html{
         }
 
         .equipo__main__img{
-            height: 100%;
-            width: 100%;
+            background-color: $color-principal;
+            box-shadow: 0px 0px 10px $color-transDark2;
+            height: 99%;
+            width: 98%;
             object-fit: cover;            
         }
         }
@@ -893,10 +913,21 @@ html{
                 width: 100%;
                 display: flex;
                 justify-content: center;
+                padding-top: 5%;
 
                 .contacto__main__button{
                     box-shadow: 0px 10px 15px $color-transDark2;
-                    @extend %buttonLink;
+                    height: 2.5rem;
+                    width: 15rem;
+                    border-color:#ffdb0d;
+                    border-width: 2px;
+                    border-radius: 5px;
+                    background-color:$color-transDark2;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     
                     a{
                         color: $color-white;
@@ -970,6 +1001,21 @@ html{
         font-size: 12px;
         }
 
+        //-----EQUIPO HTML----
+.equipo__main__container{
+        .equipo__texto__principal{    
+             
+            font-family: $font-montserrat;
+            font-weight: $font-weight-bold;
+
+            .equipo__main__txt{
+                display: flex;
+                align-items: center;
+                background-color: green; 
+                font-size: 14px;
+            }
+        }
+    }
 
         @keyframes logos__carrousel{
 

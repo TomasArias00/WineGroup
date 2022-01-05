@@ -1,3 +1,19 @@
+.contacto__main__container .contacto__main__formContainer .contacto__main__form .contacto__main__buttonContainer .contacto__main__button {
+  height: 2.5rem;
+  width: 15rem;
+  border-color: #ffdb0d;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.76);
+  cursor: pointer;
+  text-transform: uppercase;
+  top: 85%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   width: 100vw;
 }
@@ -650,33 +666,17 @@ html {
   height: 100%;
   display: flex;
   justify-content: center;
-  background-color: #ffdb0d;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.76);
 }
 .equipo__main__container .equipo__texto__principal {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   color: white;
   text-align: center;
-  width: 80%;
+  width: 100%;
   display: flex;
-  align-items: flex-end;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative;
-  top: 0%;
-  background-color: blue;
-  height: 25%;
-}
-.equipo__main__container .equipo__texto__principal .equipo__main__txt {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-color: red;
-  height: 60%;
-  font-size: 20px;
-  font-family: 900;
-  font-family: "Montserrat", sans-serif;
+  top: 70%;
 }
 .equipo__main__container .equipo__main__row {
   height: 100%;
@@ -702,10 +702,8 @@ html {
   width: 25%;
 }
 .equipo__main__container .equipo__main__row .equipo__main__column .equipo__main__img {
-  background-color: #ffdb0d;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.76);
-  height: 99%;
-  width: 98%;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -767,21 +765,9 @@ html {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 5%;
 }
 .contacto__main__container .contacto__main__formContainer .contacto__main__form .contacto__main__buttonContainer .contacto__main__button {
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.76);
-  height: 2.5rem;
-  width: 15rem;
-  border-color: #ffdb0d;
-  border-width: 2px;
-  border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.76);
-  cursor: pointer;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .contacto__main__container .contacto__main__formContainer .contacto__main__form .contacto__main__buttonContainer .contacto__main__button a {
   color: white;
@@ -839,17 +825,6 @@ html {
 
   .footer__data {
     font-size: 12px;
-  }
-
-  .equipo__main__container .equipo__texto__principal {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-  }
-  .equipo__main__container .equipo__texto__principal .equipo__main__txt {
-    display: flex;
-    align-items: center;
-    background-color: green;
-    font-size: 14px;
   }
 
   @keyframes logos__carrousel {
