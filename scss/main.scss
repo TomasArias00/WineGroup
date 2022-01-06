@@ -314,6 +314,7 @@ html{
         overflow: scroll;
         -ms-overflow-style: none;  /* HACER INVISIBLE LA BARRA DE SCROLL IE and Edge */
         scrollbar-width: none; 
+
         -webkit-scrollbar{display: none;}
 
         .bodegas__item{
@@ -326,12 +327,11 @@ html{
             justify-content: center;
             align-items: center;
             height: 50%;
-            -ms-overflow-style: none; /* for Internet Explorer, Edge */
-            scrollbar-width: none; /* for Firefox */
-            overflow-y: scroll;
 
-            ::-webkit-scrollbar{
-                display: none; /* for Chrome, Safari, and Opera */
+            .bodegas__logo{
+                padding: 0;
+                margin: 0;
+                background-color: $color;
             }
             img{
                 width: 80%;
@@ -810,8 +810,10 @@ html{
         position: relative; 
         top: 1.5%;
         height: 25%;
+        padding-bottom: 18px;
 
         .equipo__main__txt{
+            top: 0;
             display: flex;
             align-items: center;
             text-align: center;
@@ -819,7 +821,7 @@ html{
             background-color: $color-transDark;
             box-shadow: 0 0 20px $color-transDark2;
             border-radius: 10px;
-            height: 65%;
+            height: 60%;
             font-size: 20px;
             font-family: $font-weight-bold;
             font-family: $font-montserrat;
@@ -878,7 +880,7 @@ html{
         margin: 0;
         padding: 0;
         position: absolute;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         object-fit: cover;
     }
@@ -1451,6 +1453,7 @@ html{
             font-family: $font-montserrat;
             font-weight: $font-weight-bold;
             width: 95%;
+            padding: 2px 0px 8px 0px;
             .equipo__main__txt{
                 display: flex;
                 align-items: center;
@@ -1464,11 +1467,13 @@ html{
     //-----CONTACTO HTML----
 
     .contacto__main__container{
-        height: 100vh;
+        height: 100%;
+        width: 100%;
         overflow-y: scroll;
 
         .contacto__main__bg{
             height: 100%;
+            width: 100%;
         }
         
         .contacto__main__formContainer{
