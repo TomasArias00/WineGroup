@@ -236,7 +236,7 @@ html {
   width: 80%;
   height: 75%;
   position: absolute;
-  overflow: scroll;
+  overflow: hidden;
   -ms-overflow-style: none;
   /* HACER INVISIBLE LA BARRA DE SCROLL IE and Edge */
   scrollbar-width: none;

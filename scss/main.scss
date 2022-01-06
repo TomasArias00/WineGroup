@@ -311,10 +311,9 @@ html{
         width: 80%;
         height: 75%;
         position: absolute;
-        overflow: scroll;
+        overflow: hidden;
         -ms-overflow-style: none;  /* HACER INVISIBLE LA BARRA DE SCROLL IE and Edge */
         scrollbar-width: none; 
-
         -webkit-scrollbar{display: none;}
 
         .bodegas__item{
@@ -328,8 +327,8 @@ html{
             align-items: center;
             height: 50%;
             .bodegas__logo{
-                padding: 0;
-                margin: 0;
+            padding: 0;
+            margin: 0;
             }
             img{
                 width: 80%;
