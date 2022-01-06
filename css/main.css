@@ -462,7 +462,7 @@ html {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.89);
   height: 5rem;
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -679,7 +679,7 @@ html {
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  top: 0%;
+  top: 1.5%;
   height: 25%;
 }
 .equipo__main__container .equipo__texto__principal .equipo__main__txt {
@@ -687,7 +687,9 @@ html {
   align-items: center;
   text-align: center;
   color: white;
-  text-shadow: rgba(0, 0, 0, 0.89) 0 5px 5px;
+  background-color: rgba(0, 0, 0, 0.89);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.76);
+  border-radius: 10px;
   height: 65%;
   font-size: 20px;
   font-family: 900;
@@ -862,6 +864,7 @@ html {
     text-align: center;
     width: 100%;
     padding: 2rem 8rem;
+    font-size: 25px;
   }
 
   .footer__copy {
@@ -873,14 +876,19 @@ html {
   }
 
   .equipo__main__container .equipo__texto__principal {
+    top: 1.5%;
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     width: 85%;
   }
   .equipo__main__container .equipo__texto__principal .equipo__main__txt {
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.89);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.76);
+    border-radius: 5px;
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .contacto__main__formContainer .form-control {
@@ -931,9 +939,14 @@ html {
     width: 100%;
   }
 
+  .equipo__container {
+    width: 100%;
+  }
   .equipo__container .equipo__txt {
-    font-size: 20px;
+    width: 100%;
+    font-size: 10px;
     padding: 0 2rem;
+    font-weight: 700;
   }
 
   .nosotros__container {
@@ -950,11 +963,12 @@ html {
     text-align: center;
     width: 100%;
     padding: 2rem 2rem;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .contacto__container .contacto__txt {
     width: 95%;
+    font-size: 18px;
   }
 
   @keyframes logos__carrousel {
@@ -1105,30 +1119,36 @@ html {
     color: #ffdb0d;
   }
 
-  .nosotros__main__container {
-    width: 100%;
+  .nosotros__container {
     display: flex;
-    padding-top: 0;
-    align-self: center;
-    position: relative;
-    height: 70%;
+    justify-content: center;
+    width: 100%;
+  }
+  .nosotros__container .nosotros__txt {
+    top: 0;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 2rem 1rem;
+    font-size: 14px;
   }
 
-  .nosotros__txt {
-    height: 100%;
-    font-size: 2px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
+  .bodegas__container {
     justify-content: center;
   }
-
-  .bodegas__titulo {
-    font-size: 22px;
+  .bodegas__container .bodegas__titulo {
+    padding-top: 10px;
+    margin: 0;
+    width: 90%;
+    text-align: center;
+    font-size: 15px;
   }
 
   .equipo__container .equipo__txt {
-    font-size: 20px;
+    font-size: 15px;
     padding: 0 0rem;
   }
 
@@ -1136,6 +1156,7 @@ html {
     height: 80%;
     top: 5%;
     padding: 0 1rem;
+    font-size: 15px;
   }
   .contacto__container .contacto__button {
     top: 83%;
@@ -1167,9 +1188,10 @@ html {
     top: 8%;
   }
   .nosotros__main__container .nosotros__main__txt {
-    top: 20%;
+    top: 22%;
     width: 100%;
     padding: 0rem 2rem;
+    font-size: 12px;
   }
   .nosotros__main__container .nosotros__main__iContainer {
     height: 50%;
@@ -1196,6 +1218,32 @@ html {
     display: flex;
     align-items: center;
     font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.89);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.76);
+  }
+
+  .contacto__main__container {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .contacto__main__container .contacto__main__bg {
+    height: 100%;
+  }
+  .contacto__main__container .contacto__main__formContainer {
+    width: 90%;
+  }
+  .contacto__main__container .contacto__main__formContainer .contacto__main__form .contacto__main__label {
+    font-size: 14px;
+  }
+  .contacto__main__container .contacto__main__formContainer .contacto__main__form .form-control {
+    height: 1.5rem;
+  }
+  .contacto__main__container .contacto__main__formContainer .contacto__main__form .form-select {
+    height: 2rem;
+  }
+
+  .footer__desk__container {
+    position: sticky;
   }
 
   @keyframes logos__carrousel {
