@@ -344,6 +344,7 @@ html {
   position: absolute;
   text-align: center;
   font-size: 28px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: white;
 }
@@ -414,7 +415,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
+  font-size: 24px;
   padding: 0 4rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -737,7 +738,7 @@ html {
   padding: 0;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
 }
 .contacto__main__container .contacto__main__formContainer {
